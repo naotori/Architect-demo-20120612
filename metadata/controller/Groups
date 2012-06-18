@@ -1,0 +1,204 @@
+{
+    "id": "ExtBox1-ext-gen16461",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Groups"
+    },
+    "customConfigs": [],
+    "designerId": "8d760d0f-ea15-4a36-a8fd-533707167e54",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen17119",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "grouplist",
+                "selector": "grouplist",
+                "designer|userClassName": "grouplist"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen17186",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "nav",
+                "selector": "mainnav",
+                "designer|userClassName": "nav"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen17572",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onGroupSelected",
+                "designer|params": [
+                    "l",
+                    "i",
+                    "t",
+                    "rec"
+                ],
+                "implHandler": [
+                    "this.getNav().push({",
+                    "    xtype: 'tabpanel',",
+                    "    title: rec.get('group'),",
+                    "    items: [{",
+                    "        xtype: 'countrylist',",
+                    "        title: '国',",
+                    "        store: rec.countries()",
+                    "    },{",
+                    "        xtype: 'matchlist',",
+                    "        title: '日程',",
+                    "        store: rec.matches()",
+                    "    }]",
+                    "});",
+                    ""
+                ],
+                "name": "itemtap",
+                "designer|controlQuery": "grouplist",
+                "designer|userClassName": "onGroupSelected"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen24707",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "search",
+                "selector": "searchfield",
+                "xtype": null,
+                "designer|userClassName": "search"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen24774",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "tweetslist",
+                "selector": "tweetslist",
+                "designer|userClassName": "tweetslist"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen25280",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "reload",
+                "selector": "button[action=reload]",
+                "designer|userClassName": "reload"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen25695",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTweetSearch",
+                "designer|params": [
+                    "target"
+                ],
+                "implHandler": [
+                    "    var q = this.getSearch().getValue(),",
+                    "        s = Ext.getStore('Tweets');",
+                    "",
+                    "s.load({",
+                    "    params: { q: q}",
+                    "});"
+                ],
+                "name": "action",
+                "designer|controlQuery": "search",
+                "designer|userClassName": "onTweetSearch"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen26036",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onReload",
+                "designer|params": [
+                    "target"
+                ],
+                "implHandler": [
+                    "this.onTweetSearch();",
+                    "/*",
+                    "",
+                    "Ext.device.Notification.show({",
+                    "    title: 'Verification',",
+                    "    message: 'Is your email address is: test@sencha.com',",
+                    "    buttons: Ext.MessageBox.OKCANCEL,",
+                    "    callback: function(button) {",
+                    "        if (button == \"ok\") {",
+                    "            console.log('Verified');",
+                    "        } else {",
+                    "            console.log('Nope.');",
+                    "        }",
+                    "    }",
+                    "});",
+                    "*/"
+                ],
+                "name": "tap",
+                "designer|controlQuery": "reload",
+                "designer|userClassName": "onReload"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "id": "ExtBox1-ext-gen22805",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Tweet",
+        "designer|userAlias": "tweet"
+    },
+    "customConfigs": [],
+    "designerId": "3cc18fee-6279-4e0c-9e9a-cfd9771af01f",
+    "$viewOrder": 3,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen23021",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "text",
+                "designer|userClassName": "MyField6"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen23178",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mapping": "created_at",
+                "name": "date",
+                "type": "date",
+                "designer|userClassName": "MyField7"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

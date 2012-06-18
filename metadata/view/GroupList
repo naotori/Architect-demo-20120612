@@ -1,0 +1,19 @@
+{
+    "id": "ExtBox1-ext-gen4287",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemTpl": "<div>{group}</div>",
+        "store": "Groups",
+        "designer|userClassName": "GroupList",
+        "designer|userAlias": "grouplist"
+    },
+    "customConfigs": [],
+    "designerId": "56fb9cbf-0777-4966-a36f-0b0f79f08a03",
+    "$viewOrder": 2,
+    "expanded": true
+}

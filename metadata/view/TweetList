@@ -1,0 +1,19 @@
+{
+    "id": "ExtBox1-ext-gen19582",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemTpl": "<div>{text}<br>{date:date(\"m/d h:i:s\")}</div>",
+        "store": "Tweets",
+        "designer|userClassName": "TweetList",
+        "designer|userAlias": "tweetlist"
+    },
+    "customConfigs": [],
+    "designerId": "65677ff5-01a9-456d-aaf5-4db2031ddbc2",
+    "$viewOrder": 5,
+    "expanded": true
+}

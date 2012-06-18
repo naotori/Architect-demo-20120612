@@ -1,0 +1,49 @@
+{
+    "id": "ExtBox1-ext-gen12549",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Country"
+    },
+    "customConfigs": [],
+    "designerId": "27d1f668-28f6-4e2d-83c5-1e852860f779",
+    "$viewOrder": 2,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen14784",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "designer|userClassName": "MyField5"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen14941",
+            "type": "belongstoassociation",
+            "reference": {
+                "name": "belongsTo",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "country",
+                "model": "Group",
+                "designer|userClassName": "MyBelongsToAssociation1"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

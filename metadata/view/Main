@@ -1,0 +1,100 @@
+{
+    "id": "ExtBox1-ext-gen3435",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "Main",
+        "designer|userAlias": "main"
+    },
+    "customConfigs": [],
+    "designerId": "f19188e3-a9eb-48c2-afa2-73b69eb647e0",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen10890",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "グループ",
+                "iconCls": "home"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen4133"
+        },
+        {
+            "id": "ExtBox1-ext-gen11687",
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "designer|userClassName": "MyTabBar"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-tab-bar",
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen20254",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "designer|userClassName": "MyContainer",
+                "title": "Twitter",
+                "iconCls": "info"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen20629",
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {},
+                    "customConfigs": [],
+                    "iconCls": "icon-linkedinstance",
+                    "expanded": true,
+                    "masterInstanceId": "ExtBox1-ext-gen19878"
+                },
+                {
+                    "id": "ExtBox1-ext-gen21335",
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {},
+                    "customConfigs": [],
+                    "iconCls": "icon-linkedinstance",
+                    "expanded": true,
+                    "masterInstanceId": "ExtBox1-ext-gen19582"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "id": "ExtBox1-ext-gen12472",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Match"
+    },
+    "customConfigs": [],
+    "designerId": "98b4ac4a-f187-40ca-a213-1b26ea50a856",
+    "$viewOrder": 1,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen13669",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dateFormat": "Y/m/d",
+                "name": "date",
+                "type": "date",
+                "designer|userClassName": "MyField1"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen13782",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "home",
+                "designer|userClassName": "MyField2"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen13898",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "visitor",
+                "designer|userClassName": "MyField3"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen14017",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "score",
+                "designer|userClassName": "MyField4"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen14564",
+            "type": "belongstoassociation",
+            "reference": {
+                "name": "belongsTo",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "country",
+                "model": "Group",
+                "designer|userClassName": "MyBelongsToAssociation"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

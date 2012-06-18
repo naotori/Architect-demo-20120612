@@ -1,0 +1,59 @@
+{
+    "id": "ExtBox1-ext-gen19878",
+    "type": "toolbar",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "docked": "top",
+        "designer|userClassName": "TweetSearch",
+        "designer|userAlias": "tweetsearch"
+    },
+    "customConfigs": [],
+    "designerId": "2a1d0078-b6d2-42b0-8c6c-23673d47bd5d",
+    "$viewOrder": 6,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen20064",
+            "type": "searchfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": null,
+                "designer|userClassName": "MySearchField"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen22371",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "refresh",
+                "iconMask": true,
+                "text": "",
+                "designer|userClassName": "MyButton",
+                "action": "reload"
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "action",
+                    "type": "string"
+                }
+            ],
+            "expanded": true
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": "ExtBox1-ext-gen4615",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemTpl": "<div>{home}-{visitor} @ {home}({date:date(\"Y/m/d\")})<tpl if=\"score\"><br>スコア：{score}</tpl></div>",
+        "designer|userClassName": "MatchList",
+        "designer|userAlias": "matchlist"
+    },
+    "customConfigs": [],
+    "designerId": "0171cff8-07ac-4529-9a34-6dd45b1de92d",
+    "$viewOrder": 4,
+    "expanded": true
+}

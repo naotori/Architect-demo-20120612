@@ -1,0 +1,65 @@
+{
+    "id": "ExtBox1-ext-gen12349",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Group"
+    },
+    "customConfigs": [],
+    "designerId": "2e2a665d-f10d-4211-b802-0375ad223c36",
+    "$viewOrder": 0,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen13082",
+            "type": "hasmanyassociation",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "matches",
+                "model": "Match",
+                "designer|userClassName": "MyHasManyAssociation"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen13151",
+            "type": "hasmanyassociation",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "countries",
+                "model": "Country",
+                "designer|userClassName": "MyHasManyAssociation1"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen13459",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "group",
+                "designer|userClassName": "MyField"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

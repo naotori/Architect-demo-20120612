@@ -1,0 +1,52 @@
+{
+    "id": "ExtBox1-ext-gen23339",
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Tweet",
+        "storeId": "Tweets",
+        "designer|userClassName": "Tweets"
+    },
+    "customConfigs": [],
+    "designerId": "a188f76a-8e26-4dd0-b198-6eebbb43498e",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen23942",
+            "type": "jsonpproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://search.twitter.com/search.json",
+                "designer|userClassName": "MyJsonPProxy"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen24058",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "results",
+                        "designer|userClassName": "MyJsonReader1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

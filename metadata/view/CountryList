@@ -1,0 +1,18 @@
+{
+    "id": "ExtBox1-ext-gen4451",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemTpl": "{name}",
+        "designer|userClassName": "CountryList",
+        "designer|userAlias": "countrylist"
+    },
+    "customConfigs": [],
+    "designerId": "d6b4fdd2-52e9-4dfe-b16c-54189e1decd1",
+    "$viewOrder": 3,
+    "expanded": true
+}

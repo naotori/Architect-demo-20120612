@@ -1,0 +1,54 @@
+{
+    "id": "ExtBox1-ext-gen15124",
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Group",
+        "storeId": "Groups",
+        "designer|userClassName": "Groups",
+        "designer|userAlias": "groups"
+    },
+    "customConfigs": [],
+    "designerId": "f3fd0ed7-a694-42e3-a54f-8fa79a85107f",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen15131",
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://yuki/data/data.json",
+                "designer|userClassName": "MyAjaxProxy"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen15138",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "groups",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": "ExtBox1-ext-gen2042",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Group",
+            "Match",
+            "Country",
+            "Tweet"
+        ],
+        "stores": [
+            "Groups",
+            "Tweets"
+        ],
+        "views": [
+            "Main",
+            "Nav",
+            "GroupList",
+            "CountryList",
+            "MatchList",
+            "TweetList",
+            "TweetSearch"
+        ],
+        "name": "Afc",
+        "controllers": [
+            "Groups"
+        ],
+        "designer|requires": null
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "iconCls": "icon-application",
+    "expanded": true
+}
